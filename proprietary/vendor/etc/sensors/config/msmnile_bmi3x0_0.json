@@ -61,11 +61,11 @@
       "x":{ "type": "str", "ver": "0",
         "data": "-x"
       },
-      "y":{ "type": "str", "ver": "0",
-        "data": "+y"
+      "y":{ "type": "str", "ver": "1",
+        "data": "-y"
       },
-      "z":{ "type": "str", "ver": "0",
-        "data": "-z"
+      "z":{ "type": "str", "ver": "1",
+        "data": "+z"
       }
     },
     ".gyro":{

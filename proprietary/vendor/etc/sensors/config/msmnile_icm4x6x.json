@@ -55,14 +55,14 @@
     },
     ".orient":{
       "owner": "icm4x6xx",
-      "x":{ "type": "str", "ver": "0",
-        "data": "-y"
+      "x":{ "type": "str", "ver": "1",
+        "data": "+y"
       },
       "y":{ "type": "str", "ver": "0",
         "data": "-x"
       },
-      "z":{ "type": "str", "ver": "0",
-        "data": "-z"
+      "z":{ "type": "str", "ver": "1",
+        "data": "+z"
       }
     },
     ".gyro":{

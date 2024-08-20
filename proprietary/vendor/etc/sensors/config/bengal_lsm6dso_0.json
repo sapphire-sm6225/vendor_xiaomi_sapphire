@@ -1,7 +1,7 @@
 {
   "config":{
-    "hw_platform": ["IDP", "IOT"],
-    "soc_id": [ "417", "420", "444", "445", "469", "470", "518", "585", "586", "561", "562"]
+    "hw_platform": ["IDP"],
+    "soc_id": ["518"]
   },
   "lsm6dso_0":{
     "owner": "lsm6dso",
@@ -83,8 +83,8 @@
     "owner": "lsm6dso",
     ".config":{
       "owner": "lsm6dso",
-      "bus_type":{ "type": "int", "ver": "0",
-        "data": "3"
+      "bus_type":{ "type": "int", "ver": "1",
+        "data": "0"
       },
       "bus_instance":{ "type": "int", "ver": "0",
         "data": "2"
@@ -98,8 +98,8 @@
       "min_bus_speed_khz":{ "type": "int", "ver": "0",
         "data": "400"
       },
-      "max_bus_speed_khz":{ "type": "int", "ver": "0",
-        "data": "12500"
+      "max_bus_speed_khz":{ "type": "int", "ver": "1",
+        "data": "400"
       },
       "reg_addr_type":{ "type": "int", "ver": "0",
         "data": "0"
@@ -140,11 +140,11 @@
     },
     ".orient":{
       "owner": "lsm6dso",
-      "x":{ "type": "str", "ver": "0",
-        "data": "-x"
+      "x":{ "type": "str", "ver": "1",
+        "data": "+y"
       },
-      "y":{ "type": "str", "ver": "0",
-        "data": "-y"
+      "y":{ "type": "str", "ver": "1",
+        "data": "-x"
       },
       "z":{ "type": "str", "ver": "0",
         "data": "+z"
@@ -269,8 +269,8 @@
       "owner": "lsm6dso",
       ".config":{
         "owner": "lsm6dso",
-        "thresh":{ "type": "flt", "ver": "0",
-            "data": "0.6132"
+        "thresh":{ "type": "flt", "ver": "1",
+            "data": "1.22"
         },
         "disable":{ "type": "int", "ver": "0",
           "data": "0"

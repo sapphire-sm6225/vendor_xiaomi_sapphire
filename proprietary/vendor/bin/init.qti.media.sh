@@ -136,7 +136,7 @@ case "$target" in
         esac
         ;;
     "bengal")
-        setprop vendor.mm.target.enable.qcom_parser 12500207
+        setprop vendor.mm.target.enable.qcom_parser 16711407
         case "$soc_hwid" in
             586)
                 setprop vendor.media.target_variant "_khaje_iot"

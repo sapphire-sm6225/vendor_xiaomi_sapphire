@@ -174,34 +174,34 @@
     ".coefficient":{
       "owner": "sns_tmd2755",
       "0":{ "type": "flt", "ver": "0",
-        "data": "20.437"
+        "data": "30.565"
       },
       "1":{ "type": "flt", "ver": "0",
-        "data": "-96.863"
+        "data": "-49.997"
       },
       "2":{ "type": "flt", "ver": "0",
-        "data": "4843.148"
+        "data": "3004.309"
       },
       "3":{ "type": "flt", "ver": "0",
-        "data": "1"
+        "data": "22.465"
       },
       "4":{ "type": "flt", "ver": "0",
-        "data": "-0.487"
+        "data": "-9.887"
       },
       "5":{ "type": "flt", "ver": "0",
-        "data": "87413.87"
+        "data": "2880.803"
       },
       "6":{ "type": "flt", "ver": "0",
-        "data": "1"
+        "data": "-40.236"
       },
       "7":{ "type": "flt", "ver": "0",
-        "data": "-0.253"
+        "data": "18.838"
       },
       "8":{ "type": "flt", "ver": "0",
-        "data": "8.8"
+        "data": "0.0"
       },
       "9":{ "type": "flt", "ver": "0",
-        "data": "15432.25"
+        "data": "2011.778"
       },
       "10":{ "type": "flt", "ver": "0",
         "data": "200.0"

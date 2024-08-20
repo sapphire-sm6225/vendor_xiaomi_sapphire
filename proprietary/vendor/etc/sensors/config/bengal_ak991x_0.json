@@ -2,7 +2,8 @@
   "config":
   {
     "hw_platform": ["IDP", "IOT"],
-    "soc_id": ["417", "420", "444", "445", "469", "470", "518", "585", "586", "561", "562"]
+    "soc_id": ["417", "420", "444", "445", "469", "470", "518", "585", "586", "561", "562"],
+    "ro.boot.hwname": ["sapphire"]
   },
    "ak0991x_0":{
     "owner": "sns_ak0991x",
@@ -43,13 +44,13 @@
     ".config":{
       "owner": "sns_ak0991x",
       "bus_type":{ "type": "int", "ver": "0",
-        "data": "3"
+        "data": "0"
       },
       "bus_instance":{ "type": "int", "ver": "0",
         "data": "2"
       },
       "slave_config":{ "type": "int", "ver": "0",
-        "data": "12"
+        "data": "14"
       },
       "i3c_address":{ "type": "int", "ver": "0",
         "data": "20"
@@ -57,8 +58,8 @@
       "min_bus_speed_khz":{ "type": "int", "ver": "0",
         "data": "400"
       },
-      "max_bus_speed_khz":{ "type": "int", "ver": "0",
-        "data": "12500"
+      "max_bus_speed_khz":{ "type": "int", "ver": "1",
+        "data": "400"
       },
       "reg_addr_type":{ "type": "int", "ver": "0",
         "data": "0"
@@ -93,11 +94,11 @@
     },
     ".orient":{
       "owner": "sns_ak0991x",
-      "x":{ "type": "str", "ver": "0",
-        "data": "-y"
-      },
-      "y":{ "type": "str", "ver": "0",
+      "x":{ "type": "str", "ver": "1",
         "data": "+x"
+      },
+      "y":{ "type": "str", "ver": "1",
+        "data": "+y"
       },
       "z":{ "type": "str", "ver": "0",
         "data": "+z"
@@ -109,32 +110,32 @@
         "owner": "sns_ak0991x",
         ".corr_mat":{
           "owner": "sns_ak0991x",
-          "0_0":{ "type": "flt", "ver": "0",
-            "data": "1.031"
+          "0_0":{ "type": "flt", "ver": "1",
+            "data": "1.0380859375"
           },
-          "0_1":{ "type": "flt", "ver": "0",
-            "data": "-0.048"
+          "0_1":{ "type": "flt", "ver": "1",
+            "data": "-0.0655517578125"
           },
-          "0_2":{ "type": "flt", "ver": "0",
-            "data": "0.042"
+          "0_2":{ "type": "flt", "ver": "1",
+            "data": "0.01324462890625"
           },
-          "1_0":{ "type": "flt", "ver": "0",
-            "data": "-0.048"
+          "1_0":{ "type": "flt", "ver": "1",
+            "data": "-0.0682373046875"
           },
-          "1_1":{ "type": "flt", "ver": "0",
-            "data": "0.982"
+          "1_1":{ "type": "flt", "ver": "1",
+            "data": "0.9139404296875"
           },
-          "1_2":{ "type": "flt", "ver": "0",
-            "data": "0.009"
+          "1_2":{ "type": "flt", "ver": "1",
+            "data": "0.01019287109375"
           },
-          "2_0":{ "type": "flt", "ver": "0",
-            "data": "0.042"
+          "2_0":{ "type": "flt", "ver": "1",
+            "data": "0.03271484375"
           },
-          "2_1":{ "type": "flt", "ver": "0",
-            "data": "0.009"
+          "2_1":{ "type": "flt", "ver": "1",
+            "data": "0.02734375"
           },
-          "2_2":{ "type": "flt", "ver": "0",
-            "data": "0.987"
+          "2_2":{ "type": "flt", "ver": "1",
+            "data": "1.07696533203125"
           }
         },
         ".bias":{
